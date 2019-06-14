@@ -11,7 +11,7 @@ Thanks to IBM for sponsoring drinks and food, and Gogo, Inc for providing space 
 
 [Analysis of Women's National Basketball Association (WNBA)](https://github.com/Chicago-R-User-Group/2019-n5-Joint-Meetup-Chicago-Women-In-Big-Data/blob/master/slides/WNBA%20Shot%20Locations.pptx) shot distributions with R by Jonathan Mizel, Demand Planning Analyst at Gogo, Inc.
 
-[Race for Data](https://github.com/Chicago-R-User-Group/2019-n5-Joint-Meetup-Chicago-Women-In-Big-Data/blob/master/slides/JP%20Morgan%20Chase%20Race%20Data.pptx) will be presented by Amanda Mordacq, Analyst at Gogo, Inc. A short analysis on race times from the recent JP Morgan Corporate Challenge, using R.
+[Race for Data](https://github.com/Chicago-R-User-Group/2019-n5-Joint-Meetup-Chicago-Women-In-Big-Data/blob/master/slides/JP%20Morgan%20Chase%20Race%20Data.pptx) presented by Amanda Mordacq, Analyst at Gogo, Inc. A short analysis on race times from the recent JP Morgan Corporate Challenge, using R.
 
 ## Open Mic surprise
 
