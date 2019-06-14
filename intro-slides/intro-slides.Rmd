@@ -1,0 +1,121 @@
+---
+title: "Chicago Women in Big Data and Chicago R User Group"
+author: " "
+date: "`r Sys.Date()`"
+output: RUGtools::intro_slides
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(RUGtools)
+```
+
+# Local R News
+
+## Data Science Workflows Using R and Spark
+
+**Date - Friday, June 14th, 830a to 5p**
+
+**Instructor - Dr. E. James Harner, West Virginia University **
+
+**Location - Amazon Web Services, At&T Center, 227 W. Monroe, Suite 1400**
+
+Information and Register here: https://www.123signup.com/event?id=rjmzb
+
+## Lectures on Numerical Methods in Data Science
+
+**Dates - June 17, 19, 21**
+
+**Register by June 13**
+
+https://cam.uchicago.edu/events/rtg/
+
+The Committee on Computational and Applied Mathematics and the Department of
+Statistics will host a series of six lectures on "Numerical Methods in Data
+Science" by David Bindel of Cornell University and two seminars on deep neural
+networks by Julius Berner and Dennis Elbrachter of Vienna University.
+
+
+## New Version of RUGtools
+
+An R package containing data and functions to help organize the Chicago R User Group.
+
+```{r, eval=FALSE}
+devtools::install_github("Chicago-R-User-Group/RUGtools")
+```
+
+```{r, echo=TRUE}
+library(RUGtools)
+pizza_estimate(registered = 121, attend_rate = 0.55, pizza_diameter = 18)
+```
+
+## New Version of RUGtools
+
+An R package containing data and functions to help organize the Chicago R User Group.
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(xts)
+
+members_xts <- xts(x = member_list$Member.ID, order.by = member_list$Joined.Group.on)
+names(members_xts) <- "useRs"
+
+plot(members_xts, col = "blue", grid.col = "white", main = "Chicago R User Group members by join date")
+```
+
+## Follow us
+
+![](images/GitHub-Mark.png) [Chicago-R-User-Group](https://twitter.com/ChicagoRusers)
+
+
+![](images/twitter50x41.png) @[ChicagoRusers](https://twitter.com/ChicagoRusers)
+
+
+## R Fortunes from the past
+
+```{r, echo=TRUE}
+fortunes::fortune()
+```
+
+# Anyone hiring R folks? 
+
+# Today's meetup and its Sponsor
+
+## Welcoming Chicago Women in Big Data!
+
+Follow us:
+
+![](images/GitHub-Mark.png) [Chicago-Women-in-Big-Data](https://www.meetup.com/Chicago-Women-in-Big-Data/)
+
+
+![](images/twitter50x41.png)
+[ChiDataWomen](https://twitter.com/ChiDataWomen)
+
+
+## Thank you IBM 
+
+```{r, out.width = "500px", , fig.align='center'}
+path1 <- paste0(getwd(), "/images/IBM-Logo.jpeg")
+knitr::include_graphics(path1)
+```
+
+## Thank you Gogo
+
+```{r, out.width = "500px", , fig.align='center'}
+path1 <- paste0(getwd(), "/images/Gogo_inflight_Logo.jpg")
+knitr::include_graphics(path1)
+```
+
+## Today's Feature 
+
+
+- **Developing credit risk models for recommendation engines** by Helen Ristov.
+
+- **Analysis of Women's National Basketball Association (WNBA) shot distributions with R** by Jonathan Mizel
+
+- **Race for Data will be presented** by Amanda Mordacq
+
+
+Thanks again to IBM and Gogo for sponsoring today's meetup!
+
